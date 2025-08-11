@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-08-10T22:42:33.067Z",
+  "assets": {
+    "css": [
+      "public/skystage-assets/css/3895f1f3bb16df6f.css",
+      "public/skystage-assets/css/25a74a126e8c3d22.css",
+      "public/skystage-assets/css/ea47b3d0a94e380d.css"
+    ],
+    "images": [
+      "https://ext.same-assets.com/3217929354/3251544383.jpeg",
+      "https://ext.same-assets.com/3217929354/196786526.jpeg",
+      "https://ext.same-assets.com/3217929354/4276378940.jpeg",
+      "https://ext.same-assets.com/3217929354/296827301.jpeg",
+      "https://ext.same-assets.com/3217929354/1903540219.jpeg",
+      "https://ext.same-assets.com/3217929354/1552326712.jpeg",
+      "https://ext.same-assets.com/3217929354/4194686482.jpeg",
+      "https://ext.same-assets.com/3217929354/2522083599.jpeg"
+    ],
+    "mappings": [
+      {
+        "original": "https://www.skystage.com/_next/static/css/3895f1f3bb16df6f.css",
+        "replacement": "/skystage-assets/css/3895f1f3bb16df6f.css",
+        "type": "css"
+      },
+      {
+        "original": "https://www.skystage.com/_next/static/css/25a74a126e8c3d22.css",
+        "replacement": "/skystage-assets/css/25a74a126e8c3d22.css",
+        "type": "css"
+      },
+      {
+        "original": "https://www.skystage.com/_next/static/css/ea47b3d0a94e380d.css",
+        "replacement": "/skystage-assets/css/ea47b3d0a94e380d.css",
+        "type": "css"
+      },
+      {
+        "original": "https://res.cloudinary.com/drotqvwnl/image/upload/v1707324062/Group_89_bgge7h.svg",
+        "replacement": "https://ext.same-assets.com/3217929354/3901443556.svg",
+        "type": "svg"
+      },
+      {
+        "original": "https://res.cloudinary.com/drotqvwnl/image/upload/v1710777517/list_2_txvth1.svg",
+        "replacement": "https://ext.same-assets.com/3217929354/4079797572.svg",
+        "type": "svg"
+      },
+      {
+        "original": "https://res.cloudinary.com/dgqeiqhlq/image/upload/q_auto/v1739559163/Screenshot_2025-02-14_at_1.50.26_PM_ttf3ox.png",
+        "replacement": "https://ext.same-assets.com/3217929354/2199644731.png",
+        "type": "image"
+      },
+      {
+        "original": "https://res.cloudinary.com/dgqeiqhlq/image/upload/q_auto/v1739567618/Screenshot_2025-02-14_at_4.10.31_PM_1_5_nuqz7x.png",
+        "replacement": "https://ext.same-assets.com/3217929354/3962827081.png",
+        "type": "image"
+      },
+      {
+        "original": "https://d1t7q4re3kulf9.cloudfront.net/thumbnails/",
+        "replacement": "https://ext.same-assets.com/3217929354/",
+        "type": "image"
+      },
+      {
+        "original": "https://fonts.gstatic.com/s/worksans/v23/",
+        "replacement": "https://ext.same-assets.com/3217929354/",
+        "type": "font"
+      }
+    ]
+  }
+}

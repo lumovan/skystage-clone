@@ -1,0 +1,163 @@
+{
+  "name": "SkyStage - Drone Show Platform",
+  "short_name": "SkyStage",
+  "description": "Design and book the drone show of your dreams",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#1a49a7",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["entertainment", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/assets/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshots/desktop-home.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Homepage"
+    },
+    {
+      "src": "/assets/screenshots/desktop-builder.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Show Builder"
+    },
+    {
+      "src": "/assets/screenshots/mobile-home.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Mobile Homepage"
+    },
+    {
+      "src": "/assets/screenshots/mobile-formations.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Formation Library"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Create Show",
+      "short_name": "New Show",
+      "description": "Start building a new drone show",
+      "url": "/show-builder",
+      "icons": [
+        {
+          "src": "/assets/icons/shortcut-create.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Browse Formations",
+      "short_name": "Formations",
+      "description": "Explore the formation library",
+      "url": "/discover",
+      "icons": [
+        {
+          "src": "/assets/icons/shortcut-browse.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Book Show",
+      "short_name": "Book",
+      "description": "Book a drone show",
+      "url": "/book-show",
+      "icons": [
+        {
+          "src": "/assets/icons/shortcut-book.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "protocol_handlers": [
+    {
+      "protocol": "web+skystage",
+      "url": "/show?id=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/api/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "file",
+          "accept": [".blend", ".json", ".csv", ".dss"]
+        }
+      ]
+    }
+  },
+  "features": [
+    "Cross Platform",
+    "Offline Capable",
+    "Secure",
+    "Fast",
+    "Installable"
+  ]
+}

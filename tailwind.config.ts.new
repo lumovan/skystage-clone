@@ -1,0 +1,49 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        // SkyStage colors
+        skystage: {
+          dark: '#040404',
+          purple: '#9b3c68',
+          blue: '#2049d9',
+          green: '#6e9184'
+        }
+      },
+      fontFamily: {
+        'work-sans': ['Work Sans', 'sans-serif'],
+      },
+      animation: {
+        'scroll-left': 'scroll-left 30s linear infinite',
+        'scroll-right': 'scroll-right 30s linear infinite',
+        'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+      },
+      keyframes: {
+        'scroll-left': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }
+        },
+        'scroll-right': {
+          '0%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(0)' }
+        },
+        'pulse-glow': {
+          '0%, 100%': { opacity: '0.6' },
+          '50%': { opacity: '1' }
+        }
+      }
+    },
+  },
+  plugins: [],
+};
+
+export default config;
