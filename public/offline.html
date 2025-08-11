@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - SkyStage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 500px;
+            padding: 2rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .drone-animation {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .drone {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .drone:nth-child(1) { left: 10%; animation-delay: 0s; }
+        .drone:nth-child(2) { left: 20%; animation-delay: 1s; }
+        .drone:nth-child(3) { left: 30%; animation-delay: 2s; }
+        .drone:nth-child(4) { left: 40%; animation-delay: 3s; }
+        .drone:nth-child(5) { left: 50%; animation-delay: 4s; }
+        .drone:nth-child(6) { left: 60%; animation-delay: 5s; }
+        .drone:nth-child(7) { left: 70%; animation-delay: 0.5s; }
+        .drone:nth-child(8) { left: 80%; animation-delay: 1.5s; }
+        .drone:nth-child(9) { left: 90%; animation-delay: 2.5s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(100vh) scale(0.5); opacity: 0; }
+            50% { transform: translateY(-20px) scale(1); opacity: 1; }
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .message {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .message h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #fbbf24;
+        }
+
+        .message p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .features {
+            list-style: none;
+            margin: 1rem 0;
+        }
+
+        .features li {
+            padding: 0.5rem 0;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        .actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: rgba(255, 255, 255, 0.9);
+            color: #1e3a8a;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .status {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .connection-status {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #ef4444;
+            margin-right: 0.5rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .online .connection-status {
+            background: #10b981;
+            animation: none;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+                font-size: 2rem;
+            }
+
+            .actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="drone-animation">
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+        <div class="drone"></div>
+    </div>
+
+    <div class="container">
+        <div class="logo">🚁</div>
+
+        <h1>SkyStage</h1>
+        <p class="subtitle">Offline Mode</p>
+
+        <div class="message">
+            <h2>You're Currently Offline</h2>
+            <p>Don't worry! SkyStage works offline too. While you're disconnected, you can still:</p>
+
+            <ul class="features">
+                <li>Browse cached formations</li>
+                <li>View your saved shows</li>
+                <li>Access the help documentation</li>
+                <li>Use the 3D formation preview</li>
+                <li>Work on formation designs</li>
+            </ul>
+
+            <p>Your changes will be automatically synced when you reconnect to the internet.</p>
+        </div>
+
+        <div class="actions">
+            <a href="/" class="btn btn-primary" onclick="goHome()">
+                🏠 Go to Homepage
+            </a>
+            <button class="btn btn-secondary" onclick="checkConnection()">
+                🔄 Check Connection
+            </button>
+        </div>
+
+        <div class="status">
+            <span class="connection-status"></span>
+            <span id="status-text">No internet connection</span>
+        </div>
+    </div>
+
+    <script>
+        // Check online status
+        function updateConnectionStatus() {
+            const statusElement = document.getElementById('status-text');
+            const bodyElement = document.body;
+
+            if (navigator.onLine) {
+                statusElement.textContent = 'Back online! Refreshing...';
+                bodyElement.classList.add('online');
+                setTimeout(() => {
+                    window.location.reload();
+                }, 2000);
+            } else {
+                statusElement.textContent = 'No internet connection';
+                bodyElement.classList.remove('online');
+            }
+        }
+
+        function checkConnection() {
+            updateConnectionStatus();
+
+            // Also try to fetch a small resource to verify connectivity
+            fetch('/', { method: 'HEAD', cache: 'no-cache' })
+                .then(() => {
+                    if (!navigator.onLine) {
+                        document.getElementById('status-text').textContent = 'Connection restored! Refreshing...';
+                        document.body.classList.add('online');
+                        setTimeout(() => window.location.reload(), 1000);
+                    }
+                })
+                .catch(() => {
+                    document.getElementById('status-text').textContent = 'Still offline - please try again';
+                });
+        }
+
+        function goHome() {
+            // Try to navigate to home, fallback to cached version
+            window.location.href = '/';
+        }
+
+        // Listen for online/offline events
+        window.addEventListener('online', updateConnectionStatus);
+        window.addEventListener('offline', updateConnectionStatus);
+
+        // Initial status check
+        updateConnectionStatus();
+
+        // Periodic connectivity check
+        setInterval(checkConnection, 30000); // Check every 30 seconds
+
+        // Handle service worker updates
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.addEventListener('message', (event) => {
+                if (event.data.type === 'CACHE_UPDATED') {
+                    console.log('Cache updated, new content available');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

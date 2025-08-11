@@ -1,0 +1,30 @@
+
+<svg width="384" height="384" viewBox="0 0 384 384" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a49a7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="192" cy="192" r="188" fill="url(#gradient)" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Drone representation - simplified abstract design -->
+  <g transform="translate(192, 192)">
+    <!-- Central body -->
+    <circle cx="0" cy="0" r="32" fill="#ffffff" opacity="0.9"/>
+
+    <!-- Four propellers positioned at corners -->
+    <circle cx="-64" cy="-64" r="19.2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="64" cy="-64" r="19.2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="-64" cy="64" r="19.2" fill="#ffffff" opacity="0.7"/>
+    <circle cx="64" cy="64" r="19.2" fill="#ffffff" opacity="0.7"/>
+
+    <!-- Connecting arms -->
+    <line x1="-64" y1="-64" x2="0" y2="0" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <line x1="64" y1="-64" x2="0" y2="0" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <line x1="-64" y1="64" x2="0" y2="0" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <line x1="64" y1="64" x2="0" y2="0" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  </g>
+</svg>

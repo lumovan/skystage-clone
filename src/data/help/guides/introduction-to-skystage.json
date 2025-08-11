@@ -1,0 +1,17 @@
+{
+  "url": "https://www.skystage.com/guides/intro-to-skystage",
+  "title": "Introduction to SkyStage",
+  "description": "",
+  "sections": [
+    {
+      "heading": "Overview",
+      "html": "<div id=\"__next\"><div><div><main class=\"__className_0d0ba4\"><div><div class=\"Home_standardCenteredDiv__I_6o7\" style=\"flex-direction:row;height:70px;justify-content:flex-start;width:100%;border:0px solid #333;border-bottom-width:1px\"><a href=\"/\"><div style=\"cursor:pointer\"><div style=\"margin-left:30px\"><img loading=\"lazy\" width=\"150\" height=\"50\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" srcset=\"https://res.cloudinary.com/drotqvwnl/image/upload/v1708713055/Group_128_ean7hh.svg 1x, https://res.cloudinary.com/drotqvwnl/image/upload/v1708713055/Group_128_ean7hh.svg 2x\" src=\"https://res.cloudinary.com/drotqvwnl/image/upload/v1708713055/Group_128_ean7hh.svg\"></div></div></a><div style=\"margin-left:auto\"><a class=\"Home_standardCenteredDiv__I_6o7\" href=\"/\"><text class=\"Home_alternateTextBody__qVH8_\" style=\"font-size:13px;color:#333;width:130px\">Back to SkyStage</text></a></div></div><div style=\"margin-left:0px;margin-top:-100px\"><div style=\"min-height:120px\"></div><div style=\"min-height:10px\"></div><div class=\"Home_standardCenteredDiv__I_6o7\" style=\"justify-content:flex-start;align-items:flex-start;padding-left:20px;padding-right:20px\"></div><div style=\"min-height:80px\"></div><div style=\"min-height:80px\"></div></div></div></main></div></div></div><script id=\"__NEXT_DATA__\" type=\"application/json\">{\"props\":{\"pageProps\":{\"articleSlug\":\"intro-to-skystage\",\"article\":{\"post_file\":\"intro-to-skystage_e67821aa-4fbe-4b8b-9156-129d02c3b67b.txt\",\"time_published_utc_epoch\":\"1733770250.6338027\",\"user_published\":\"5f953f36-04b3-4406-8755-d2c59fb59fd9\",\"is_hidden\":false,\"description\":\"This article details how the platform caters to different users.\",\"slug_of_post_this_is_from\":\"intro-to-skystage\",\"position\":\"1\",\"title\":\"Introduction to SkyStage\",\"user_who_created_draft\":\"5f953f36-04b3-4406-8755-d2c59fb59fd9\"},\"didFindArticle\":true},\"__N_SSP\":true},\"page\":\"/guides/[articleSlug]\",\"query\":{\"articleSlug\":\"intro-to-skystage\"},\"buildId\":\"-pxkRqeMzYMDQ2Sle6a-D\",\"isFallback\":false,\"isExperimentalCompile\":false,\"gssp\":true,\"scriptLoader\":[]}</script>"
+    }
+  ],
+  "images": [
+    "https://res.cloudinary.com/drotqvwnl/image/upload/v1708713055/Group_128_ean7hh.svg"
+  ],
+  "links": [],
+  "plaintext": "Back to SkyStage{\"props\":{\"pageProps\":{\"articleSlug\":\"intro-to-skystage\",\"article\":{\"post_file\":\"intro-to-skystage_e67821aa-4fbe-4b8b-9156-129d02c3b67b.txt\",\"time_published_utc_epoch\":\"1733770250.6338027\",\"user_published\":\"5f953f36-04b3-4406-8755-d2c59fb59fd9\",\"is_hidden\":false,\"description\":\"This article details how the platform caters to different users.\",\"slug_of_post_this_is_from\":\"intro-to-skystage\",\"position\":\"1\",\"title\":\"Introduction to SkyStage\",\"user_who_created_draft\":\"5f953f36-04b3-4406-8755-d2c59fb59fd9\"},\"didFindArticle\":true},\"__N_SSP\":true},\"page\":\"/guides/[articleSlug]\",\"query\":{\"articleSlug\":\"intro-to-skystage\"},\"buildId\":\"-pxkRqeMzYMDQ2Sle6a-D\",\"isFallback\":false,\"isExperimentalCompile\":false,\"gssp\":true,\"scriptLoader\":[]}",
+  "slug": "introduction-to-skystage"
+}

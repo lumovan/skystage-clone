@@ -1,0 +1,240 @@
+{
+  "timestamp": "2025-08-10T14:51:35.225Z",
+  "totalAssets": 58,
+  "successCount": 58,
+  "errorCount": 0,
+  "assets": [
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2911840443.svg",
+      "localPath": "logos/skystage-logo.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3126707818.svg",
+      "localPath": "logos/skystage-logo-alt.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/711367295.svg",
+      "localPath": "logos/skystage-logo-header.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/967202961.mp4",
+      "localPath": "videos/hero-background.mp4"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3867534047.png",
+      "localPath": "images/3d-preview-heart.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1552028429.png",
+      "localPath": "images/drag-drop-designer.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/203728570.svg",
+      "localPath": "icons/ai-icon.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1392581921.svg",
+      "localPath": "icons/arrow-left.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1238676097.svg",
+      "localPath": "icons/filter.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3366102963.svg",
+      "localPath": "icons/search.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1262082240.svg",
+      "localPath": "icons/drone-count.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2707685175.svg",
+      "localPath": "icons/duration.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/608646329.svg",
+      "localPath": "icons/star-rating.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/4056627843.svg",
+      "localPath": "icons/guarantee-pricing.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3554315709.svg",
+      "localPath": "icons/guarantee-insurance.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3458935830.svg",
+      "localPath": "icons/guarantee-compliance.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2409020944.svg",
+      "localPath": "icons/guarantee-escrow.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2745154041.svg",
+      "localPath": "icons/guarantee-refund.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1823160998.svg",
+      "localPath": "icons/calendar.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/4135231171.png",
+      "localPath": "images/categories/wedding.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2557736812.png",
+      "localPath": "images/categories/proposal.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2774912259.png",
+      "localPath": "images/categories/epic.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3633343646.png",
+      "localPath": "images/categories/christmas.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/856609192.png",
+      "localPath": "images/categories/july4th.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1032029115.png",
+      "localPath": "images/categories/love.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1057319835.png",
+      "localPath": "images/categories/celestial.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1051400054.png",
+      "localPath": "images/categories/halloween.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1266389741.png",
+      "localPath": "images/categories/gift.png"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1053690495.jpeg",
+      "localPath": "formations/beating-heart.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1807837556.jpeg",
+      "localPath": "formations/starry-night.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3894632651.jpeg",
+      "localPath": "formations/ring-from-box.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1530583935.jpeg",
+      "localPath": "formations/unfolding-rose.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2994348294.jpeg",
+      "localPath": "formations/spiral.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1325694607.jpeg",
+      "localPath": "formations/dahlia.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3886899748.jpeg",
+      "localPath": "formations/magic-carpet.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/471822314.jpeg",
+      "localPath": "formations/looping-circles.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3715164333.jpeg",
+      "localPath": "formations/yin-yang.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/983743494.jpeg",
+      "localPath": "formations/flapping-dolphin.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2369495706.jpeg",
+      "localPath": "formations/sparkling-eiffel-tower.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2826674649.jpeg",
+      "localPath": "formations/torus-loop.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3669108600.jpeg",
+      "localPath": "formations/waving-american-flag.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3742071098.jpeg",
+      "localPath": "formations/looping-circles-100.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3119561854.jpeg",
+      "localPath": "formations/magic-carpet-100.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/265039351.jpeg",
+      "localPath": "formations/rotating-circles-100.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3413333981.jpeg",
+      "localPath": "formations/heart-tunnel.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1641838399.jpeg",
+      "localPath": "formations/hot-air-balloon.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2215883596.jpeg",
+      "localPath": "formations/earth.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/3681124198.jpeg",
+      "localPath": "formations/beating-hearts.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2359468155.jpeg",
+      "localPath": "formations/two-hearts.jpg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/1041432142.svg",
+      "localPath": "icons/play.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/667604112.svg",
+      "localPath": "icons/pause.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/952278276.svg",
+      "localPath": "icons/drone-255.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/649647988.svg",
+      "localPath": "icons/clock.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/109529994.svg",
+      "localPath": "icons/star-filled.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/600865854.otf",
+      "localPath": "fonts/work-sans.otf"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/847546811.woff2",
+      "localPath": "fonts/work-sans.woff2"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/205771669.svg",
+      "localPath": "icons/error-drone.svg"
+    },
+    {
+      "originalUrl": "https://ext.same-assets.com/3217929354/2510367834.svg",
+      "localPath": "icons/chat-widget.svg"
+    }
+  ]
+}

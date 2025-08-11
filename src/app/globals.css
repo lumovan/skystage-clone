@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Work Sans", system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Scrolling text animations */
+  @keyframes scroll-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  @keyframes scroll-right {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  .animate-scroll-left {
+    animation: scroll-left 30s linear infinite;
+  }
+
+  .animate-scroll-right {
+    animation: scroll-right 30s linear infinite;
+  }
+
+  /* Pulse animation for formation dots */
+  @keyframes pulse-formation {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.1); }
+  }
+
+  .animate-pulse-formation {
+    animation: pulse-formation 2s ease-in-out infinite;
+  }
+
+  /* Hover effects */
+  .hover-scale {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+
+  /* Video background overlay */
+  .video-overlay {
+    background: linear-gradient(45deg, rgba(0,0,0,0.3), rgba(0,0,0,0.1));
+  }
+}
+
+/* Print-friendly help pages */
+@media print {
+  header, nav, .no-print { display: none !important; }
+  a[href]:after { content: " (" attr(href) ")"; font-size: 10px; color: #666; }
+  body { color: #111; }
+}
+
+/* Lightweight code syntax highlighting */
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+pre { background: #0f172a; color: #e2e8f0; padding: 1rem; border-radius: 0.5rem; overflow: auto; }
+code { background: #0f172a; color: #e2e8f0; padding: 0.125rem 0.25rem; border-radius: 0.25rem; }
+pre code { background: transparent; padding: 0; }
+.token.comment { color: #94a3b8; }
+.token.keyword { color: #93c5fd; }
+.token.string { color: #86efac; }
+.token.number { color: #fca5a5; }
